@@ -1,3 +1,11 @@
+<a name="3.0.0-beta1"></a>
+# [3.0.0-beta1](https://github.com/christophehurpeau/pob-release/compare/v2.3.0...v3.0.0-beta1) (2016-12-22)
+
+
+
+
+
+
 ### v2.3.0
 
 - [`3dbc492`](https://github.com/christophehurpeau/pob-release/commit/3dbc492baf337c56dcb7aa1e072a82523f44abdf) prerelease publish to beta tag (Christophe Hurpeau)
