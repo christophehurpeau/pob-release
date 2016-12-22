@@ -18,7 +18,7 @@ execSync('git --no-pager log --reverse --format="%aN <%aE>" | sort -fub > AUTHOR
 
 /* CHANGELOG */
 
-execSync('node_modules/.bin/standard-changelog > \\#temp_changelog', { stdio: 'inherit' });
+execSync('node_modules/.bin/standard-changelog | sed -e :a -e \'/^\\n*$/{$d;N;};/\\n$/ba\' > \\#temp_changelog', { stdio: 'inherit' });
 execSync('$EDITOR \\#temp_changelog', { stdio: 'inherit' });
 execSync('echo "\\n" >> \\#temp_changelog', { stdio: 'inherit' });
 try {
