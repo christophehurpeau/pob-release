@@ -18,11 +18,11 @@
     "standard-changelog": "./standard-changelog"
   },
   "dependencies": {
-    "conventional-recommended-bump": "^0.3.0",
+    "conventional-recommended-bump": "^1.0.0",
     "inquirer": "^3.0.6",
     "minimist-argv": "^1.0.0",
     "semver": "^5.3.0",
-    "standard-changelog": "0.0.1"
+    "standard-changelog": "1.0.1"
   },
   "devDependencies": {
     "eslint": "^3.17.0",
