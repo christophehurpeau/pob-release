@@ -1,5 +1,7 @@
 # pob-release
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/christophehurpeau/pob-release.svg)](https://greenkeeper.io/)
+
 Release with ease
 
 ### Install
